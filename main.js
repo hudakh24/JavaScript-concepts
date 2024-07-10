@@ -1,8 +1,8 @@
-const evenOdd = () => {
+const secondary = () => {
     const a = 2;
-    a % 2 == 0 ? console.log("even") : console.log("odd");
+    console.log("secondary");
   };
-  
+
 const main = () => {
     console.log("main function");
   };
