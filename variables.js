@@ -1,10 +1,10 @@
 //constant
 
-let a = 1;
+var a = 1;
 console.log("a before scope", a);
 
 {
-  let a = 1;
+  a = 2;
   console.log("a in scope", a);
 
   a = "string";
