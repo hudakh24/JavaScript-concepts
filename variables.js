@@ -4,7 +4,7 @@ var a = 1;
 console.log("a before scope", a);
 
 {
-  a = 2;
+  var a = 2;
   console.log("a in scope", a);
 
   a = "string";
