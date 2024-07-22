@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Form Example</title>
+</head>
+
+<body>
+    <h1>Comprehensive Form </h1>
+    <form action="/submit" method="post">
+        <!-- textInput -->
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br>
+
+        <!-- Password Input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <!-- Telephone Input -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <!-- Month Input -->
+        <label for="birthmonth">Birth Month:</label><br>
+        <input type="month" id="birthmonth" name="birthmonth"><br><br>
+
+        <!-- Number Input -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="0" max="10"><br><br>
+        
+        <!-- URL Input -->
+        <label for="website">Enter your github:</label>
+        <input type="url" id="website" name="website"><br><br>
+
+        <!-- Radio Button Input -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+
+        <!-- Checkbox Input -->
+        <p>Choose your interests:</p>
+        <input type="checkbox" id="HTML" name="interests" value="HTML"> 
+        <label for="HTML"> HTML</label><br>
+        <input type="checkbox" id="CSS" name="interests" value="HTML"> 
+        <label for="CSS"> CSS</label><br>
+        <input type="checkbox" id="JavaScript" name="interests" value="HTML"> 
+        <label for="Javascipt"> Javascipt</label><br><br>
+
+        <!-- Range Input -->
+        <label for="level">Rate yourself in HTML:</label>
+        <input type="range" id="level" name="level" min="0" max="10"><br><br>
+        
+        <!-- Selection -->
+        <p>Choose Your Country:</p>
+        <select id="country" name="country">
+            <option value="PAK">Pakistan</option>
+            <option value="CAN">Canada</option>
+            <option value="UK">United Kingdom</option>
+            <option value="AUS">Australia</option>
+            <option value="NZ">New Zealand</option>
+        </select><br><br>
+
+        <!-- Color Input -->
+        <label for="favcolor">Choose Your Favorite Color:</label>
+        <input type="color" id="favcolor" name="favcolor"><br><br>
+
+        <!-- Week Input -->
+        <label for="week">Select Week for interview:</label>
+        <input type="week" id="week" name="week"><br><br>
+
+        <!-- Date Input -->
+        <label for="interview">Select date for interview:</label>
+        <input type="date" id="interview" name="interview"><br><br>
+
+        <!-- Time Input -->
+        <label for="appt">Select Time for interview:</label>
+        <input type="time" id="appt" name="appt"><br><br>
+
+        <!-- Datetime-local Input -->
+        <label for="meeting">Select Meeting Date and Time:</label>
+        <input type="datetime-local" id="meeting" name="meeting"><br><br>
+
+        <!-- Image Input -->
+        <label for="upload">Upload your Image:</label>
+        <input type="image" id="upload" src="submit.png" alt="upload again"><br><br>
+
+        <!-- File Input -->
+        <label for="resume">Upload your resume:</label>
+        <input type="file" id="resume" name="resume"><br><br>
+ 
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+        <!-- Reset Button -->
+        <input type="reset" value="Reset">
+
+        
+    </form>
+</body>
+
+</html>
