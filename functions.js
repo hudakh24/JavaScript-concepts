@@ -32,3 +32,23 @@ function evenOdd_2(
 }
 
 evenOdd_2();
+
+// to change value in JS
+//pass by reference thing
+
+const check = (param, updateArray) => {
+  console.log("param->", param);
+  const P1 = [4, 5];
+  updateArray(P1);
+};
+
+const main = () => {
+  let arg = [1, 2];
+  const updateArray = (newValue) => {
+    arg = newValue;
+  };
+  check(arg, updateArray);
+  console.log(arg);
+};
+
+main();
