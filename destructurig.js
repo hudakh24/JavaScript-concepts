@@ -19,7 +19,7 @@ console.log(colors);
 
 // ASSIGN ARRAY ELEMENTS TO VARIABLES
 console.log("\n--------- EXAMPLE 3---------");
-const [firstColor, secondColor, thirdColor, ...extraColors] = colors;
+const [firstColor, secondColor, thirdColor, ...extraColors] = colors; // "..."rest operator
 console.log(firstColor);
 console.log(secondColor);
 console.log(thirdColor);
